@@ -80,7 +80,7 @@ The system defines exactly four (4) digrams, eight (8) trigrams, and sixty-four 
 
 At the commencement of a game session, a single atomic line element is randomly placed within an empty cell on the board.
 
-After each directional movement input by the player, exactly one (1) additional atomic line element is spawned. Spawning occurs only in unoccupied cells and with equal probability between yin and yang line types.
+After each directional movement input by the player, one (1) or more additional atomic line element is spawned. Spawning occurs only in unoccupied cells and with equal probability between yin and yang line types.
 
 ---
 
@@ -88,7 +88,7 @@ After each directional movement input by the player, exactly one (1) additional 
 
 Player interaction occurs primarily through four-directional swipe inputs: upward, downward, leftward, and rightward.
 
-Upon receipt of a swipe input, all movable elements on the board shift simultaneously in the indicated direction, traveling until blocked by either the edge of the board or another element.
+Upon receipt of a swipe input, all movable elements on the board shift simultaneously in the indicated direction, traveling until blocked by either the edge of the board only.
 
 ---
 
@@ -134,11 +134,11 @@ These rules ensure deterministic and reproducible symbolic construction.
 
 ### 11. Fixation Mechanism
 
-Hexagrams may be fixed into position only when located within special cells.
+Hexagrams may be fixed/locked into position only when located within special cells.
 
-Fixation is triggered by a discrete tap or click input directed precisely at the target cell. Once fixed, a hexagram becomes immobile and visually distinguished.
+Fixation/locking is triggered by a discrete tap or click input directed precisely at the target cell. Once fixed/locked, a hexagram becomes immobile and visually distinguished.
 
-A fixed hexagram may be released and returned to a movable state by a subsequent tap or click.
+A fixed/locked hexagram may be released and returned to a movable state by a subsequent tap or click.
 
 ---
 
@@ -176,13 +176,38 @@ A game session terminates unsuccessfully if the board becomes fully occupied and
 
 ---
 
-### 17. Levels and Variants
+### 17. Levels, Variants and Game Modes
 
-The work presently includes a single level. Additional levels may be defined through alternative initial configurations or increased starting complexity without altering the core mechanics described herein.
+The work presently includes a single level. Additional levels may be defined through alternative initial configurations or increased starting complexity without altering the core mechanics described herein. Game Modes are applied to set Difficulty Mode.
 
 ---
 
-### 18. Non-Fungible Token Output
+### 18. Game State Visual Examples
+
+
+Initial Game State showing a single line above a special cell:
+
+![Initial Game State showing a single line above a special cell](media/initial_game_state.png)
+
+
+Mid Game State showing fixed/locked hexagram in special cells, among other grams throughout the game board:
+
+![Mid Game State showing fixed/locked hexagram in special cells, among other grams throughout the game board](media/mid_game_state.png)
+
+
+Pre-winning Game State showing several fixed/locked hexagrams along indication of duplicates of fixed/locked hexagrams:
+
+![Pre-winning Game State showing several fixed/locked hexagrams along indication of duplicates of fixed/locked hexagrams](media/pre_winning_game_state.png)
+
+
+Win Game State showing completed hexagrams fixed/locked onto special cells that finalizes board configuration:
+
+![Win Game State showing completed hexagrams fixed/locked onto special cells that finalizes board configuration](media/winning_game_state.png)
+
+
+---
+
+### 19. Non-Fungible Token Output
 
 Upon successful completion of a Harmony Hex Token, the system generates a digital certificate representing the solved state. This certificate includes:
 
@@ -194,13 +219,13 @@ This output constitutes a unique, non-fungible digital artifact intrinsically li
 
 ---
 
-### 19. Statement of Originality
+### 20. Statement of Originality
 
 The selection, coordination, and arrangement of mechanics, symbolic systems, spatial constraints, interaction rules, and visual expression described herein constitute an original work of authorship fixed in tangible form.
 
 ---
 
-### 20. Scope of Claim
+### 21. Scope of Claim
 
 The copyright claim extends to the original rules, structure, symbolic representations, audiovisual expression, and the particular combination and arrangement thereof, as fixed in documentation, software, and visual output, excluding only elements dictated by technical necessity or external standards.
 
