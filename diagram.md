@@ -1,7 +1,7 @@
-# Harmony Hex - Complete Mermaid Diagram Documentation
+# Harmony Hash - Complete Mermaid Diagram Documentation
 
 ## Overview
-This document provides visual explanations of the Harmony Hex game system using Mermaid diagrams. These diagrams serve as complementary copyright documentation, illustrating the original combination of game mechanics, UI interactions, and system architecture that constitute the unique Harmony Hex gameplay experience, but are not limited to it, having the possibility of being represented in other formats and ways while retaining the game mechanics.
+This document provides visual explanations of the Harmony Hash game system using Mermaid diagrams. These diagrams serve as complementary copyright documentation, illustrating the original combination of game mechanics, UI interactions, and system architecture that constitute the unique Harmony Hash gameplay experience, but are not limited to it, having the possibility of being represented in other formats and ways while retaining the game mechanics.
 
 ---
 
@@ -17,7 +17,7 @@ graph TB
     end
     
     subgraph "Game Logic Layer"
-        GameClass[HarmonyHexGame Class]
+        GameClass[HarmonyHashGame Class]
         Board[8x8 Board State]
         Rules[Game Rules Engine]
         Scoring[Scoring System]
@@ -82,7 +82,7 @@ sequenceDiagram
     
     User->>Browser: Load index.html
     Browser->>Game: DOMContentLoaded
-    Game->>Game: new HarmonyHexGame()
+    Game->>Game: new HarmonyHashGame()
     Game->>Board: createEmptyBoard()
     Game->>Game: setupEventListeners()
     Game->>Game: setupSwipeHandling()
@@ -301,7 +301,7 @@ sequenceDiagram
     Document-->>Button: Return current theme
     Button->>Button: Toggle theme (dark/light)
     Button->>Document: setAttribute('data-theme', newTheme)
-    Button->>LocalStorage: setItem('harmonyHexTheme', newTheme)
+    Button->>LocalStorage: setItem('harmonyHashTheme', newTheme)
     Document->>CSS: Apply CSS custom properties
     CSS-->>User: Visual theme updates
 ```
@@ -574,7 +574,7 @@ graph TD
 ## 7. Conclusion
 
 ### 7.1 IP Protection Summary
-The Harmony Hex game system represents a unique combination of mechanics that together form an original work eligible for copyright protection:
+The Harmony Hash game system represents a unique combination of mechanics that together form an original work eligible for copyright protection:
 
 1. **Original Game Board Structure**: 8x8 grid with hash-shaped special cell pattern
 2. **Unique Symbolic System**: Yin/Yang lines forming digrams, trigrams, and hexagrams
@@ -601,7 +601,7 @@ This Mermaid diagram documentation serves as:
 ---
 
 ## 8 Legal Considerations
-- This documentation is part of the Harmony Hex copyright deposit
+- This documentation is part of the Harmony Hash copyright deposit
 - Diagrams illustrate the original creative expression
 - Diagrams do not limit future artistic ensembles of the original creative expression
   
@@ -609,7 +609,7 @@ This Mermaid diagram documentation serves as:
 
 **Document Version**: 1.0  
 **Last Updated**: December 17, 2025  
-**Game Version**: Harmony Hex v1.0  
+**Game Version**: Harmony Hash v1.0  
 **Author**: Alexandre Michel Gavronski  
 **Copyright**: © 2025 All Rights Reserved
 
