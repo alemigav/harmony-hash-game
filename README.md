@@ -1,4 +1,4 @@
-# harmony-hex-game
+# harmony-hash-game
 
 Original game design and ruleset for Harmony Hash, a symbolic 8×8 merge-based puzzle game.
 
