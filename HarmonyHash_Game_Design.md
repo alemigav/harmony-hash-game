@@ -1,8 +1,8 @@
-# Harmony Hex
+# Harmony Hash
 
 © 2025 Alexandre Gavronski. All rights reserved.
 
-**Harmony Hex** is an original game concept, ruleset, symbolic system, and audiovisual gameplay design. Unauthorized reproduction, distribution, public performance, display, or creation of derivative works is prohibited without the express permission of the author.
+**Harmony Hash** is an original game concept, ruleset, symbolic system, and audiovisual gameplay design. Unauthorized reproduction, distribution, public performance, display, or creation of derivative works is prohibited without the express permission of the author.
 
 Public availability of this document does **not** constitute a license.
 
@@ -12,19 +12,19 @@ Public availability of this document does **not** constitute a license.
 
 ### 1. Title of the Work
 
-**Harmony Hex**
+**Harmony Hash**
 
 ---
 
 ### 2. Nature of the Work
 
-Harmony Hex is an original interactive audiovisual game system comprising rules, mechanics, symbolic representations, and player interactions expressed through software and graphical elements. The work constitutes a pictorial, graphic, literary, and audiovisual compilation protected as an original selection, coordination, and arrangement of gameplay mechanics and symbolic logic.
+Harmony Hash is an original interactive audiovisual game system comprising rules, mechanics, symbolic representations, and player interactions expressed through software and graphical elements. The work constitutes a pictorial, graphic, literary, and audiovisual compilation protected as an original selection, coordination, and arrangement of gameplay mechanics and symbolic logic.
 
 ---
 
 ### 3. General Description of the Work
 
-Harmony Hex is a grid-based puzzle game in which players manipulate symbolic elements through directional input to construct ordered symbolic sequences. Gameplay centers on the progressive construction of composite symbols from atomic components, culminating in a unique solved configuration that satisfies predefined spatial, logical, and symbolic constraints.
+Harmony Hash is a grid-based puzzle game in which players manipulate symbolic elements through directional input to construct ordered symbolic sequences. Gameplay centers on the progressive construction of composite symbols from atomic components, culminating in a unique solved configuration that satisfies predefined spatial, logical, and symbolic constraints.
 
 The originality of the work arises from the precise interaction of board topology, merge logic, ordering rules, fixation mechanics, uniqueness constraints, and symbolic representation, forming a system not reducible to any individual mechanic alone.
 
@@ -166,7 +166,7 @@ The game includes a scoring mechanism awarding points for the creation of compos
 
 A game session is successfully completed when all twenty-eight (28) special cells are occupied by fixed hexagrams and each such hexagram is symbolically unique.
 
-Fulfillment of this condition results in the creation of a **Harmony Hex Token**, representing a completed and valid final configuration.
+Fulfillment of this condition results in the creation of a **Harmony Hash Token**, representing a completed and valid final configuration.
 
 ---
 
@@ -209,7 +209,7 @@ Win Game State showing completed hexagrams fixed/locked onto special cells that 
 
 ### 19. Non-Fungible Token Output
 
-Upon successful completion of a Harmony Hex Token, the system generates a digital certificate representing the solved state. This certificate includes:
+Upon successful completion of a Harmony Hash Token, the system generates a digital certificate representing the solved state. This certificate includes:
 
 * The exact positions and identities of the twenty-eight (28) fixed hexagrams
 * A timestamp of completion
