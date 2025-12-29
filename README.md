@@ -2,6 +2,8 @@
 
 Original game design and ruleset for Harmony Hash, a symbolic 8×8 merge-based puzzle game.
 
+Now playable as a functional game at https://harmonyhash.pages.dev/
+
 This repository establishes public authorship and prior art for the Harmony Hash game system.
 All documentation herein is provided for descriptive purposes only.
 
